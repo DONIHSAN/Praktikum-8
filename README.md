@@ -46,7 +46,7 @@ def tambah(self,nim,nama,tugas,uts,uas):
         data.uas.append(uas)
 ```
 
-Ini tampilan jika kita memanggil method **Tambah()** :
+Ini tampilan jika kita memanggil method `Tambah()` :
 
 ![gambar 4](screenshot/ss4.png)
 
@@ -63,7 +63,7 @@ def lihat(self):
             print(f'{((self.tugas[i]*30/100) + (self.uts[i]*35/100) + (self.uas[i]*35/100)) :.2f}', " |")
 ```
 
-Ini tampilan jika kita memanggil method **lihat()** :
+Ini tampilan jika kita memanggil method `lihat()` :
 
 ![gambar 5](screenshot/ss5.png)
 
@@ -77,7 +77,7 @@ def ubah(self,nim,nama,tugas,uts,uas):
         self.uas[no] = uas
 ```
 
-Ini tampilan jika kita memanggil method **Ubah()** :
+Ini tampilan jika kita memanggil method `Ubah()` :
 
 ![gambar 6](screenshot/ss6.png)
 
@@ -91,11 +91,19 @@ def hapus(self):
         del self.uas[no]
 ```
 
-Ini tampilan jika kita memanggil method **Hapus()** :
+Ini tampilan jika kita memanggil method `Hapus()` :
 
 ![gambar 7](screenshot/ss7.png)
 
 # Flowchart
+
+![gambar](screenshot/Flowchart.png) 
+
+**Sekian Tugas Praktikum di Pertemuan kali ini.**
+
+**Jika Masih Ada Yg Salah Saya Minta Maaf.**
+
+**Wassalamualaikum wr.wb.**
 
 
 
